@@ -7,24 +7,16 @@ import { CheckCircle, Clock, Users } from "lucide-react";
 const OfferSection = () => {
   const valueStack = [
     {
-      item: "Lifetime Elite Tier Status",
-      value: "A $950/Year Value, Yours Forever."
+      item: "First 5 Transactions are FREE",
+      value: "We'll waive our standard 6% transaction fee on your first five completed jobs."
     },
     {
-      item: "Permanently Locked-In Founder's Rate", 
-      value: "Just $49/month, a 50% discount on the future Elite price."
-    },
-    {
-      item: "The Lowest Possible Transaction Fees",
-      value: "5% on all jobs, forever."
-    },
-    {
-      item: "Welcome Bonus of 100 Lead Credits",
-      value: "A $300 Value."
+      item: "Permanently Locked-In Transaction Rate", 
+      value: "Just 3% on all future work, forever. Half our standard rate."
     },
     {
       item: "Exclusive 'Founding Member' Badge",
-      value: "Signify your status on your public profile."
+      value: "Signal your status on your public profile."
     },
     {
       item: "Direct Line to our Development Team",
@@ -45,7 +37,7 @@ const OfferSection = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Become a TreeHub Founding Member
+            Become a TreeHub Founding Member. Lock In Your Advantage.
           </h2>
           <p className="text-xl text-white/90 mb-4">
             A One-Time Offer, Strictly Limited to the First 100 Industry Professionals
@@ -102,9 +94,9 @@ const OfferSection = () => {
                   <span className="font-semibold text-foreground">Limited Time Pricing</span>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-foreground mb-1">$49/month</div>
-                  <div className="text-muted-foreground line-through">Regular Price: $98/month</div>
-                  <div className="text-treehub-teal font-semibold">50% OFF Forever</div>
+                  <div className="text-3xl font-bold text-foreground mb-1">$250</div>
+                  <div className="text-muted-foreground">One-Time Payment</div>
+                  <div className="text-treehub-teal font-semibold">Lock In Your Advantage Forever</div>
                 </div>
               </div>
 
