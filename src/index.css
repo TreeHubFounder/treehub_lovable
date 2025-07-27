@@ -9,32 +9,47 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 220 9% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 9% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 9% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* TreeHub Brand Colors */
+    --primary: 173 100% 35%; /* TreeHub Teal */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 65% 55%; /* TreeHub Brown */
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 173 100% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 173 100% 35%;
+
+    /* TreeHub Custom Colors */
+    --treehub-teal: 173 100% 35%;
+    --treehub-teal-light: 173 50% 80%;
+    --treehub-brown: 35 65% 55%;
+    --treehub-brown-light: 35 35% 80%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--treehub-teal)), hsl(var(--treehub-brown)));
+    --gradient-offer: linear-gradient(135deg, hsl(var(--treehub-brown)), hsl(35 45% 45%));
+    
+    /* Shadows */
+    --shadow-premium: 0 20px 40px -10px hsl(var(--treehub-teal) / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--treehub-brown) / 0.2);
 
     --radius: 0.5rem;
 
