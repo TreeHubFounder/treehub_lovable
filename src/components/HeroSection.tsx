@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import treehubLogo from "@/assets/treehub-logo.png";
-import heroImage from "@/assets/hero-arborists.jpg";
 
 const HeroSection = () => {
   return (
@@ -8,7 +7,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/7b0ae223-f141-440e-96fc-1c4df4d96f28.png)` }}
       >
         <div className="absolute inset-0 bg-black/40" />
       </div>
