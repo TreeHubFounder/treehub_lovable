@@ -15,7 +15,7 @@ const HeroSection = () => {
       {/* Navigation */}
       <nav className="absolute top-0 left-0 right-0 z-20 p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <img src="/lovable-uploads/d976ca8f-2f03-40a4-a628-531cfe3dc148.png" alt="TreeHub" className="h-16 w-auto bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2" />
+          <img src="/lovable-uploads/d976ca8f-2f03-40a4-a628-531cfe3dc148.png" alt="TreeHub" className="h-20 w-auto bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2" />
           <div className="hidden md:flex items-center space-x-8 text-white">
             <span className="font-medium">Key Benefits</span>
             <span className="font-medium">Testimonials</span>
